@@ -1,4 +1,4 @@
-const togglebtn = document.querySelector('.toggle');
+const togglebtn = document.querySelector('.toggleBox');
 const sideBar = document.querySelector('.sideBarBox');
 const toggle = document.querySelector('.toggleBox');
 let toggleText = document.querySelector('.toggleText')
