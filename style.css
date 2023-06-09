@@ -17,7 +17,7 @@ body {
   background: #6e6d6d;
   position: absolute;
   transition: all .3s ease;
-  left: 200;
+  left: -200;
   top: 0;
 }
 .box{
