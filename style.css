@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  /* Font Family */
+  font-family: arial;
+}
+body {
+  background: #eee;
+}
+.sideBarBox {
+  width: 200px;
+  height: 100vh;
+  box-shadow: 0 0 7px;
+  overflow: hidden;
+  background: #6e6d6d;
+  position: absolute;
+  transition: all .3s ease;
+  top: 0;
+  left: 0;
+}
+.box{
+    text-align: center;
+}
+.welcome{
+    display: inline-block; 
+}
+
+
+.toggleBox{
+    position: absolute;
+    z-index: 999;
+    top: 7px;
+    left: 10px;
+    background: #6e6d6d;
+    padding: .2rem;
+    border-radius: .2rem;
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+    transition: all .3s ease;
+    
+}
+.toggle{
+    color: #fff;
+    text-decoration: none;
+}
+.sideBar {
+  height: 33px;
+  width: 100%;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  letter-spacing: 0.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  background: #333232;
+
+}
+
+.links {
+  height: 47%;
+  width: auto;
+  background: #6e6d6d;
+  display: flex;
+  flex-direction: column;
+}
+
+.links .link {
+  padding: 0.6rem;
+  list-style: none;
+  padding-left: 40px;
+  border-bottom: 1px solid #c7c4c4d2;
+  border-top: 1px solid #5c5c5cd2;
+  transition: all .3s ease;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+}
+.link a i{
+    padding:  0px .3rem ;
+}
+
+.link:hover {
+  box-shadow: 0 2px 2px;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+
+
+.login {
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background: #797979;
+    height: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    font-size: large;
+}
+.login a{
+    color: #fff;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.login:hover{
+    box-shadow: 0 2px 2px rgb(75, 75, 75);
+}
+
+.social{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+}
+
+.social li{
+    list-style: none;
+    padding: 0 .6rem;
+    margin-left: 3px;
+}
+
+
+.social a{
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: .2rem .4rem;
+    background:#555353 ;
+    border-radius: .3rem;
+    transition: all .3s ease;
+
+}
+
+.social .linkedin{
+    background: #2471e6;
+}
+.social .github{
+    background: #3d3e3f;
+}
+.social .snapchat{
+    background: #c4cf29;
+}
+.social .whatsapp{
+    background: #09f558;
+}
+.social .linkedin:hover{
+    color: #2471e6;
+    background-color: white;
+}
+.social .github:hover{
+    color: #3d3e3f;
+    background-color: white;
+}
+.social .snapchat:hover{
+    color: #c4cf29;
+    background-color: white;
+}
+.social .whatsapp:hover{
+    color: #09f558;
+    background-color: white;
+}
